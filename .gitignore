@@ -12,9 +12,14 @@ dist
 dist-ssr
 *.local
 
+# Test artifacts
+playwright-report/
+test-results/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/agent_knowledge/
 .idea
 .DS_Store
 *.suo
